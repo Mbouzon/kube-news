@@ -23,7 +23,7 @@ pipeline {
         }
 
         stage("Deploy k8s") {
-            environments {
+            environment {
                 tag_version = "${env.BUILD_ID}"
             }
             steps {
