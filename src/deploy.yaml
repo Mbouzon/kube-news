@@ -53,7 +53,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: mbouzon/kube-news:v1
+        image: mbouzon/kube-news:{{TAG}}
         ports:
           - containerPort: 8080
         env:
