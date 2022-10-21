@@ -69,6 +69,7 @@ spec:
             value: "Pg#123"
           - name: DB_HOST
             value: "svcdb"
+
 ---
 
 apiVersion: v1
